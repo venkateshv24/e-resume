@@ -1,13 +1,11 @@
 import './App.css';
 import { Biopic } from './components/Biopic';
+import { MainContainer } from './container/maincontainer';
 
 function App() {
   return (
     <div className="App">
-      <div className='grid-container'>
-          <Biopic />  
-      </div>
-        
+      <MainContainer />
     </div>
   );
 }

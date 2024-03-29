@@ -1,0 +1,33 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 260px 2fr;
+    height: 100vh;
+    grid-template-rows: 164px 1fr;
+  }
+
+.main-info{
+    background-color: #282828
+}
+
+.profile-details{
+    display: flex;
+    justify-content: space-between;
+    background-color: #282828;
+    color: wheat;
+}
+
+.contact-icon{
+    filter: brightness(0) invert(1);
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+    position: relative;
+    top: 2PX;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 4px
+}
